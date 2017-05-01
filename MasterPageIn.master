@@ -8,7 +8,12 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
-        h1, h2, h3, h4 {
+        h1{
+               text-align: left;
+                color: forestgreen
+
+        }
+         h2, h3, h4 {
             text-align: center;
             color: forestgreen
         }
@@ -105,7 +110,7 @@
 </head>
 <body>
 
-    <h1><u>Surf Web</u></h1>
+    <h1><u><a href="homepageuser.aspx">Surf Web</a></u></h1>
     <ul>
         <li><a href="homepageuser.aspx">HomePage</a></li>
         <li><a href="Feed.aspx">Feed</a></li>

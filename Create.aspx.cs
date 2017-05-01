@@ -48,7 +48,7 @@ public partial class Create : System.Web.UI.Page
             {
                 string Title = Request.Form["title"];
                 string Content = Request.Form["content"];
-                string XMLfile = Server.MapPath("XmlZvolon.xml");
+                string XMLfile = Server.MapPath("hadromi.xml");
                 XmlDocument xmlDoc = new XmlDocument();
                 xmlDoc.Load(XMLfile);
                 XmlNode beach = xmlDoc.CreateElement("beach");

@@ -19,7 +19,7 @@ public partial class SignUpPage : System.Web.UI.Page
             string phone = Request["phone"];
             string email = Request.Form["mail"];
             string date = Request["date"];
-            string sql = "INSERT INTO Users VALUES('" + username + "', '" + name + "', '" + password + "', '" + phone + "', '" + email + "', '" + date + "', '" )";
+            string sql = "INSERT INTO Users VALUES('" + username + "', '" + name + "', '" + password + "', '" + phone + "', '" + email + "', '" + date + "')";
 
             string connectionString = "Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\mairav\\Documents\\Visual Studio 2017\\WebSites\\WebSite1\\App_Data\\Database.mdf; Integrated Security = True;";
             SqlConnection connect = new SqlConnection(connectionString);
